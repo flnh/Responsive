@@ -10,6 +10,20 @@
   display: inline-block;
 }
 
+/* font-size */
+
+.fs-0 {
+  font-size: 0;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
 /* small */
 
 @media screen and (max-width: 700px) {
