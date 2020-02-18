@@ -1,3 +1,16 @@
 h1, p {
   margin: 5px;
 }
+
+#now strong {
+  font-size: 30px;
+}
+
+#img-now {
+  width: 100px;
+  height: 100px;
+  background-image: url('../img/nuage.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: -28px;
+}
