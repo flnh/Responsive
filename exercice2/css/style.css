@@ -48,3 +48,8 @@ h1, p {
 #semaine p {
   margin-top: 7px;
 }
+
+#semaine > .row div:nth-of-type(1),
+#semaine > .row div:nth-of-type(4) {
+  margin-top: 12px;
+}
