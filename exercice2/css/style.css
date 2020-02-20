@@ -53,3 +53,18 @@ h1, p {
 #semaine > .row div:nth-of-type(4) {
   margin-top: 12px;
 }
+
+@media screen and (min-width: 900px) {
+  hr:not(#separation) {
+    display: none;
+  }
+
+  div.row.col-md-1 {
+    width: calc(100% / 7);
+  }
+
+  div.row.col-md-1 > div {
+    float: none;
+    margin: auto;
+  }
+}
