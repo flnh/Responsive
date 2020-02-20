@@ -2,6 +2,32 @@
   margin: 5px 0;
 }
 
+.nuage,
+.nuagePetit,
+.pluie,
+.soleil {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nuage {
+  background-image: url('../img/nuage.svg');
+}
+
+.nuagePetit {
+  background-image: url('../img/nuagePetit.svg');
+}
+
+.pluie {
+  background-image: url('../img/pluie.svg');
+}
+
+.soleil {
+  background-image: url('../img/soleil.svg');
+}
+
 h1, p {
   margin: 5px;
 }
@@ -10,11 +36,6 @@ h1, p {
   font-size: 30px;
 }
 
-#img-now {
-  width: 60px;
-  height: 60px;
-  background-image: url('../img/nuage.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position-y: -10px;
+#now p:nth-of-type(1) {
+  margin-top: 6px;
 }
