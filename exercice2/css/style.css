@@ -5,7 +5,8 @@
 .nuage,
 .nuagePetit,
 .pluie,
-.soleil {
+.soleil,
+.orage {
   width: 60px;
   height: 60px;
   background-repeat: no-repeat;
@@ -28,6 +29,10 @@
   background-image: url('../img/soleil.svg');
 }
 
+.orage {
+  background-image: url('../img/orage.svg');
+}
+
 h1, p {
   margin: 5px;
 }
@@ -38,4 +43,8 @@ h1, p {
 
 #now p:nth-of-type(1) {
   margin-top: 6px;
+}
+
+#semaine p {
+  margin-top: 7px;
 }
